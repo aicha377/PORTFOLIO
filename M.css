@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Accueil{
+    display: flex;
+    height: 80vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'ubuntu', sans-serif;
+    position:relative;
+    background-repeat:none;
+  
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: black;
+    font-family:'ubuntu' sans-serif;
+    padding: 15px 0;
+}
+.navbar .logo a{
+    coor:white;
+    font-size: 37px;
+    font-weight: 600;
+    padding: 15px 0;
+
+}
+.max-width{
+    max-width 120px;
+    padding: 0 70px;
+    margin: auto;
+}
+.navbar .max-width{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a:hover{
+     color: black;
+     
+    }
+    .navbar .menu li a{
+        text-decoration: none;
+        color:#fff;
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 23px;
+}
+
+.active{
+    font-weight: bold;
+    color: #2d2a2a;
+}
+#text-container p:nth-child(1){
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #6d6d6d;
+  font-size: 23px;
+}
+#text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 50px;
+}
+#text-container p:nth-child(3){
+    font-family: myria pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+#text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+#text-container button{
+    width: 132px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+.hire-btn{
+   border:2px solid #373636;
+}
+.down-cv{
+    background-color: #0b0b0b ;
+    color: #ffffff;
+    border: none;
+}
+button:active{
+    transform: scale(1.1);
+}
+.about-container{
+    width: 90%;
+    height: 330px;
+    background-color:#F5F5F5;
+    border-radius: 25px;
+    box-shadow: 2212 rgba(0, 0, 0, 2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-text{
+    width: 550px;
+}
+
+.about-text p:nth-child(1){
+    color: #403e3e;
+    font-family: myria pro;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.about-text p:nth-child(2){
+   
+    font-family: myria pro;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 5px;
+}
+.about-text p:nth-child(3){
+    color: #7e7d7d;
+    font-family: calibri;
+    font-size: 30px;
+}
+.about-text button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    background-color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-1,.box-2,.box-3{
+    width:300px ;
+    height:320px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 3);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: #F5F5F5;
+    
+}
+.box-1{
+background-image: url("images-PROJET/WORD.png");
+border-radius: 10px;
+}
+.box-2{
+    background-image: url("images-PROJET/ADOBE.png");
+    border-radius: 10px;
+}
+.box-3{
+    background-image: url("images-PROJET/htmlcss.png");
+    border-radius: 10px;
+}
+.box-1 span,
+.box-2 span,
+.box-3 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-family: arial;
+    font-weight: bold;
+    padding: 10px;
+}
+.box-1 p:nth-child(2),
+.box-2 p:nth-child(2),
+.box-3 p:nth-child(2){
+    color: white;
+    font-family: arial;
+    font-size: 35px;
+    line-height: 0px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.box-1 p:nth-child(3),
+.box-2 p:nth-child(3),
+.box-3 p:nth-child(3){
+    font-family: arial;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+    color: white;
+    padding: 10px;
+}
+.box-1  button,
+.box-2  button,
+.box-3 button{
+    width: 100px;
+    height: 30px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+} 
+.services{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    padding: 2px 10px 0px 10px;
+}
+p{ 
+    padding-left: 20px;
+    padding-bottom: 10px; 
+}
+.contactez-moi p{
+    color: white;
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.contactez-moi button{
+    width: 200px;
+    height: 35px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold; 
+    
+}
+.contactez-moi{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: calibri;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+.icon-social a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 20px;
+}
+.icon-social{
+    display: flex;
+}
+.box-container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: #F5F5F5;
+    margin-right: 25px;
+    background-size: cover;
+    
+}
+.grandbox-1{
+background-image: url("images-PROJET/conception4.png");
+border-radius: 10px;
+width: 220px;
+height: 300px;
+}
+.grandbox-2{
+    background-image: url("images-PROJET/conceptionF.png");
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+.grandbox-3{
+    background-image: url("images-PROJET/conceptionvente.png");
+    border-radius: 10px;
+    width: 220px;
+    height: 300px;
+}
+
+
